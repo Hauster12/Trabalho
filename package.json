@@ -1,0 +1,19 @@
+{
+  "name": "batalha-personagens",
+  "version": "1.0.0",
+  "description": "Simulação de batalha entre Padre e Guerreiro em TypeScript.",
+  "main": "dist/Main.js",
+  "type": "module",
+  "scripts": {
+    "start": "node dist/Main.js",
+    "build": "tsc",
+    "play": "npm run build && npm start"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.7.2",
+    "@types/node": "^22.9.0"
+  }
+}
